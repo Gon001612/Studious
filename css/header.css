@@ -36,6 +36,15 @@
 }
 
 /* Header nav */
+.mainHeader {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #fff;
+}
+
 .navbar-brand {
   font-size: 1.625rem;
   font-weight: 700;
