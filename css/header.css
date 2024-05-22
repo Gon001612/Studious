@@ -1,0 +1,91 @@
+/* Header Top */
+.header--top {
+  background-color: #0d369f;
+  padding: 15px;
+}
+
+.header--top ul {
+  margin: 0;
+  padding: 0;
+}
+
+.header--left ul i {
+  color: white;
+  font-size: 0.875rem;
+}
+
+.header--top ul a {
+  color: white;
+  transition: all 0.5s;
+}
+
+.header--top ul a:hover {
+  color: #ff6e65;
+}
+
+.header--top ul li {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.header--top .content {
+}
+
+.socialIcon li {
+  font-size: 0.875rem;
+}
+
+/* Header nav */
+.navbar-brand {
+  font-size: 1.625rem;
+  font-weight: 700;
+  color: #0d369f;
+  padding-top: 10px;
+  transition: all 0.5s;
+  margin-left: 20px;
+}
+.navbar-brand:hover {
+  color: #ff6e65;
+}
+
+.navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: black;
+  transition: all 0.5s;
+  padding: 0 10px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #ff6e65;
+}
+
+.navbar-nav .nav-item .active {
+  color: #ff6e65 !important;
+}
+
+/* Header Form */
+.headerSearch .form-control {
+  padding: 10px 35px 10px 20px;
+  border-radius: 30px;
+  color: ;
+  border: 2px solid #eee;
+  background: transparent;
+  width: 100%;
+}
+.form-control:focus {
+  outline: none;
+}
+
+.headerSearch .btnSearch {
+  right: 30px;
+  top: 17px;
+  padding-right: 0 20px 0 0;
+  color: #0d369f;
+  transition: all 0.5s;
+  border: 1px solid transparent;
+}
+.headerSearch .btnSearch:hover {
+  color: #ff6e65;
+  background: transparent;
+}
