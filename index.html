@@ -39,6 +39,7 @@
     <!-- Main Css -->
     <link rel="stylesheet" href="./css/global.css" />
     <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
   </head>
 
   <body>
@@ -80,80 +81,86 @@
       </div>
     </section>
 
-    <header>
-      <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand py-2" href="#"
-            ><img src="./img/logo.png" alt="logo" />
-            Studious
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse justify-content-end navbar-collapse"
-            id="navbarSupportedContent"
-          >
-            <ul class="navbar-nav d-flex mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
+    <header class="mainHeader">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img src="./img/logo.png" alt="logo" />
+              Studious
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse justify-content-end navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav d-flex mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-              </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
 
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Pages
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Blog posts</a></li>
+                    <li><a class="dropdown-item" href="#">404 page</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">landing page</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+              <form class="headerSearch d-flex" role="search">
+                <input
+                  class="form-control me-2 position-relative"
+                  type="search"
+                  placeholder="Enter Keyword"
+                  aria-label="Search"
+                />
+                <button
+                  class="btn btnSearch btn-outline-success position-absolute"
+                  type="submit"
                 >
-                  Pages
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Blog posts</a></li>
-                  <li><a class="dropdown-item" href="#">404 page</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">landing page</a>
-                  </li>
-                </ul>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-            <form class="headerSearch d-flex" role="search">
-              <input
-                class="form-control me-2 position-relative"
-                type="search"
-                placeholder="Enter Keyword"
-                aria-label="Search"
-              />
-              <button
-                class="btn btnSearch btn-outline-success position-absolute"
-                type="submit"
-              >
-                <i class="fa fa-search" aria-hidden="true"></i>
-              </button>
-            </form>
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+              </form>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </header>
     <!-- Carousel -->
-
+    <div class="container-fluid vh-100">
+      <h2>j cung dc</h2>
+    </div>
     <!-- Welcome -->
 
     <!-- Service -->
@@ -167,6 +174,131 @@
     <!-- AboutUs -->
 
     <!-- Footer -->
+
+    <footer class="position-relative mt-5 pt-5">
+      <div class="footer--sub">
+        <div class="container">
+          <div class="footer--top">
+            <div class="row align-items-center FooterSubscribe">
+              <div class="col-md-6 title left">
+                <h2>Subscribe Us to join our Community</h2>
+                <p>Newsletter</p>
+              </div>
+
+              <div class="col-md-6 mt-4 mt-md-0 right">
+                <form class="form-input">
+                  <input
+                    type="email"
+                    name="Email"
+                    id="email"
+                    placeholder="Enter your email"
+                    class="form-control"
+                  />
+                </form>
+                <button type="submit" class="btn">Send</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer--text row">
+            <div class="col-lg-2 col-sm-6">
+              <div class="archives list-before-icon">
+                <h6>Achives</h6>
+                <ul>
+                  <li>
+                    <a href="#"> April 2021 </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="categories list-before-icon">
+                <h6>Categories</h6>
+                <ul>
+                  <li>
+                    <a href="#"> Business </a>
+                  </li>
+                  <li>
+                    <a href="#"> Creative </a>
+                  </li>
+                  <li>
+                    <a href="#"> Design </a>
+                  </li>
+                  <li>
+                    <a href="#"> Food </a>
+                  </li>
+                  <li>
+                    <a href="#"> Industry </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="contact href1--footer">
+                <h6>Contact</h6>
+                <ul>
+                  <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:info@example.com"> info@example.com</a>
+                  </li>
+                  <li>
+                    <i class="fa fa-phone"></i>
+                    <a href="tel:+44-000-888-999"> +44-000-888-999</a>
+                  </li>
+                  <li>
+                    <i class="fa fa-map-marker-alt"></i>
+                    <a href="#"> London, 235 Terry, 10001</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+              <div class="about ps-lg-5">
+                <h6>About</h6>
+                <div class="detail">
+                  <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab.
+                  </p>
+                </div>
+                <div class="socail-icon">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-github"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="copyright text-center">
+        <div class="container">
+          <p>
+            © 2024 Studious. All Rights Reserved | WordPress Theme by
+            <a href="#"> W3Layouts.</a>
+          </p>
+        </div>
+      </section>
+    </footer>
 
     <!-- Bootstrap JavaScript Libraries -->
     <script
