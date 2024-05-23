@@ -16,3 +16,38 @@ a {
 ul {
   list-style: none;
 }
+
+.btn-bg-white {
+  background-color: white;
+  color: black;
+  height: 50px;
+  width: 170px;
+  font-weight: 600;
+  border-color: transparent;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+.btn-bg-white:hover {
+  background-color: #ff6e65;
+  color: white;
+}
+
+.slide .carousel-indicators button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #fff;
+  transition: all 0.3s;
+}
+.slide .carousel-indicators button:hover {
+  background-color: #ff6e65;
+}
+.slide .carousel-indicators .active {
+  background-color: #ff6e65;
+}
+
+.slide .carousel-indicators {
+  margin: 0 !important;
+  bottom: 100px;
+  right: 30px;
+}
