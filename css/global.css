@@ -51,3 +51,44 @@ ul {
   bottom: 100px;
   right: 30px;
 }
+
+.title {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 50px;
+}
+
+.title h3 {
+  font-weight: 600;
+  font-size: 2.5rem;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.title h3 span {
+  color: #ff6e65;
+}
+
+.title h3::before {
+  content: "";
+  width: 60px;
+  height: 2px;
+  position: absolute;
+  background: #707070;
+  left: 47%;
+  bottom: 0px;
+}
+.title h3::after {
+  content: "";
+  width: 60px;
+  height: 2px;
+  position: absolute;
+  background: #707070;
+  right: 47%;
+  bottom: -10px;
+}
+
+.title p {
+  color: #707070;
+  margin-top: 30px;
+}

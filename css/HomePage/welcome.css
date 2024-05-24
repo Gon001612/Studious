@@ -1,0 +1,21 @@
+.wel-item .item-icon i {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  background-color: rgb(13 54 159 / 9%);
+  color: #0d369f;
+  font-size: 2rem;
+}
+.wel-item .item-info h4 {
+  color: #000;
+  font-weight: 600;
+}
+.wel-item .item-info a:hover h4 {
+  color: #ff6e65;
+}
+.wel-item .item-info p {
+  margin-top: 1rem;
+  color: #707070;
+  font-size: 0.875rem;
+}
