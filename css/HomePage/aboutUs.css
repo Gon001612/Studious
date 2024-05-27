@@ -1,0 +1,29 @@
+.aboutUs .abUs--content {
+  padding: 0 48px 0 15px;
+  line-height: 28px;
+}
+
+.aboutUs .abUs--content h3 {
+  font-weight: 600;
+  font-size: 2.2rem;
+  line-height: 45px !important;
+  margin-bottom: 20px;
+}
+
+.aboutUs .abUs--content p {
+  color: #070707;
+}
+
+.aboutUs .abUs--content .btn-bg-orange {
+  background-color: #ff6e65;
+  color: white;
+  font-weight: 600;
+  height: 50px;
+  width: 150px;
+  line-height: 35px;
+  margin-top: 20px;
+  transition: all 0.5s;
+}
+.aboutUs .abUs--content .btn-bg-orange:hover {
+  background-color: #0d369f;
+}

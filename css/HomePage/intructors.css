@@ -1,0 +1,61 @@
+.intructors--body .intructor--info {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.intructors--body .intructor--info .info--img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.intructor--info .info--detail h5 {
+  font-weight: 600;
+  transition: all 0.5s;
+  font-size: 1.2rem;
+}
+
+.intructor--info:hover .info--detail h5 {
+  color: #ff6900;
+}
+
+.intructor--info .info--detail p {
+  font-size: 0.875rem;
+  color: #707070;
+}
+
+.intructor--info .info--img {
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+.info--img .intructor--overlay {
+  padding: 20px 0;
+  background: rgb(8 8 8 / 29%);
+  position: absolute;
+  left: 0;
+  bottom: -124px;
+  text-align: center;
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.intructor--info:hover .info--img .intructor--overlay {
+  bottom: 0;
+}
+
+.info--img .intructor--overlay a {
+  display: inline-block;
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  color: #0d369f;
+  text-align: center;
+  font-size: 0.9rem;
+  margin: 0 5px;
+}
