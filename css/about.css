@@ -1,0 +1,224 @@
+.carousel_3Wl {
+    background-image: url(./../img/AboutUs/bg4.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 300px;
+    position: relative;
+    z-index: 1;
+}
+
+.carousel_3Wl::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(8 8 8 / 14%);
+    z-index: -1;
+    box-sizing: inherit;
+}
+
+.carousel_title {
+    padding-top: 120px;
+}
+
+.carousel_title i {
+    font-size: 10px;
+}
+
+.carousel_title a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #d4d4d4;
+    transition: all .5s;
+}
+
+.carousel_title a:hover {
+    color: white;
+}
+
+/* MISION 3Wl CSS  */
+.mision_text h3 {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 600;
+}
+
+.mision_video {
+    /* width: 100%; */
+    border-radius: 8px;
+}
+
+.mision_3Wl .video-play-icon i {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    font-size: 35px;
+    padding-left: 10px;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 50%;
+
+}
+
+/* NUMBER CSS  */
+.number_content {
+    color: #060606;
+}
+
+.number_item p {
+    font-size: 46px;
+    font-weight: 600;
+}
+
+/* INTRO CSS  */
+.intro_content {
+    margin: 96px 0;
+}
+
+.intro_content i {
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.intro_item {
+    padding: 40px 30px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #eee;
+}
+
+.intro_content .intro_title {
+    text-transform: capitalize;
+    color: #060606;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    display: inline-block;
+    transition: all 0.5s;
+}
+
+.intro_content .intro_title:hover {
+    color: #ff6e65;
+}
+
+.intro_content .intro_text {
+    font-size: 16px;
+    line-height: 28px;
+    color: #707070;
+    letter-spacing: 0.4px;
+
+}
+
+/* TEAM 3Wl CSS  */
+.team_title h3 {
+    text-transform: capitalize;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+    position: relative;
+}
+
+.team_title h3::before {
+    content: "";
+    background: #707070;
+    width: 60px;
+    height: 3px;
+    position: absolute;
+    right: 0;
+    left: -20px;
+    bottom: -8px;
+    margin: 0 auto;
+}
+
+.team_title h3::after {
+    content: "";
+    background: #707070;
+    width: 60px;
+    height: 3px;
+    position: absolute;
+    right: 0;
+    left: 20px;
+    bottom: -15px;
+    margin: 0 auto;
+}
+
+.team_title h3 span {
+    color: #ff6e65;
+}
+
+.team_item {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.team_img {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.team_img img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.team_icon {
+    position: absolute;
+    bottom: -227px;
+    margin: 0;
+    background: rgb(8 8 8 / 29%);
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.team_icon .team_icon_design {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #fff;
+    display: inline-block;
+    line-height: 28px;
+}
+
+.team_item:hover .team_icon {
+    bottom: 0;
+}
+
+.team_text {
+    text-transform: capitalize;
+}
+
+.team_text .team_text_name a {
+    color: #060606;
+    transition: all 0.5s;
+}
+
+.team_item:hover .team_text_name a {
+    color: #ff6e65;
+}
+
+.team_text span {
+    color: #707070;
+}
+
+/* EDUCATION CSS  */
+.education_text h3 {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 600;
+}
+
+.education_text ul li i {
+    color: #ff6e65;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
