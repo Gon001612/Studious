@@ -11,6 +11,12 @@
   height: 100%;
 }
 
+.intructor--info .info--detail {
+  width: 158px;
+  height: 105px;
+  margin: 0 auto;
+}
+
 .intructor--info .info--detail h5 {
   font-weight: 600;
   transition: all 0.5s;

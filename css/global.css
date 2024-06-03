@@ -93,3 +93,19 @@ ul {
   color: #707070;
   margin-top: 30px;
 }
+
+.btn-bg-orange {
+  background-color: #ff6e65;
+  color: white;
+  font-weight: 600;
+  height: 50px;
+  width: 150px;
+  line-height: 35px;
+  margin-top: 20px;
+  transition: all 0.5s;
+}
+
+.btn-bg-orange:hover {
+  background-color: #0d369f;
+  color: white;
+}

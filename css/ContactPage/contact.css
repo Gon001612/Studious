@@ -1,0 +1,47 @@
+.cont--body .cont-details i {
+  padding-top: 3px;
+  margin-right: 10px;
+  color: orangered;
+}
+
+.cont--body .cont-details h5 {
+  font-weight: 600;
+}
+
+.cont--body .cont-details p {
+  margin-bottom: 0;
+}
+
+.cont--form-right .cont--input {
+  padding: 15px;
+  font-size: 0.8rem;
+  color: #666;
+  background-color: rgb(237, 237, 237);
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.cont--form-right .cont--input:focus {
+  border: 1px solid rgb(255 110 101);
+  box-shadow: none;
+}
+
+.cont--form-right textarea {
+  height: 100px;
+}
+
+.cont--form-right .btn {
+}
+
+.contact .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cont--form-left .img-responsive {
+  max-width: 100%;
+  display: block;
+}
+.message--form .cont-form .cont--form-left img {
+  border-radius: 10px;
+}
