@@ -1,0 +1,36 @@
+.opt-bg {
+  background-image: url(../../img/HomePage/bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+.opt-item {
+  padding: 15px;
+}
+.opt-item .item {
+  background-color: #fff;
+}
+.opt-item .item .icon {
+  width: 30%;
+  text-align: center;
+}
+.opt-item .item .icon i {
+  height: 70px;
+  width: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: #0d369f;
+  background: rgb(13 54 159 / 9%);
+}
+.opt-item .item .icon-info {
+  width: 70%;
+}
+.opt-item .item .icon-info h5 {
+  font-weight: 600;
+}
+
+.opt-item .item {
+  padding: 30px 15px;
+  border-radius: 10px;
+}

@@ -23,15 +23,73 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <!-- magnific-popup CSS  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+        integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- demoBar CSS  -->
+    <link rel="stylesheet" href="./../css/demoBar.css">
     <!-- Main Css -->
     <link rel="stylesheet" href="./../css/global.css" />
     <link rel="stylesheet" href="./../css/header.css" />
     <link rel="stylesheet" href="./../css/footer.css" />
-    <link rel="stylesheet" href="./../css/about.css">
+    <link rel="stylesheet" href="./../css/AboutPage/about.css">
+    <link rel="stylesheet" href="./../css/BlogPage/blog_post.css">
 </head>
 
 <body>
+    <!-- demoBar  -->
+    <div class="pull-right-demo-bar toggle-right-sidebar">
+        <span class="fa title-open-right-sidebar tooltipstered fa-angle-double-right"></span>
+    </div>
+
+    <div id="right-sidebar" class="right-sidebar-notifcations nav-collapse">
+        <div class="bs-example bs-example-tabs right-sidebar-tab-notification" data-example-id="togglable-tabs">
+
+            <div id="w3lDemoBar" class="w3l-demo-bar">
+                <div class="demo-btns">
+                    <a href="#">
+                        <span class="w3l-icon -back">
+                            <span class="fa fa-arrow-left"></span>
+                        </span>
+                        <span class="w3l-text">Back</span>
+                    </a>
+                    <a href="#">
+                        <span class="w3l-icon -download">
+                            <span class="fa fa-download"></span>
+                        </span>
+                        <span class="w3l-text">Download</span>
+                    </a>
+                    <a href="#" class="no-margin-bottom-mobile">
+                        <span class="w3l-icon -buy">
+                            <span class="fa fa-shopping-cart"></span>
+                        </span>
+                        <span class="w3l-text">Buy</span>
+                    </a>
+                </div>
+                <!---<div class="responsive-icons">
+                        <a href="#url" class="desktop-mode">
+                                <span class="w3l-icon -desktop">
+                                        <span class="fa fa-desktop"></span>
+                                </span>
+                        </a>
+                        <a href="#url" class="tablet-mode">
+                                <span class="w3l-icon -tablet">
+                                        <span class="fa fa-tablet"></span>
+                                </span>
+                        </a>
+                        <a href="#url" class="mobile-mode no-margin-bottom">
+                                <span class="w3l-icon -mobile">
+                                        <span class="fa fa-mobile"></span>
+                                </span>
+                        </a>
+                </div>-->
+            </div>
+            <div class="right-sidebar-panel-content animated fadeInRight" tabindex="5003"
+                style="overflow: hidden; outline: none;">
+            </div>
+        </div>
+    </div>
     <!-- Header -->
     <section class="header--top container-fluid d-sm-block d-none">
         <div class="content d-flex align-items-center justify-content-between">
@@ -74,7 +132,7 @@
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="./../img/logo.png" alt="logo" />
+                    <a class="navbar-brand" href="./../index.html"><img src="./../img/logo.png" alt="logo" />
                         Studious
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -85,11 +143,11 @@
                     <div class="collapse justify-content-end navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav d-flex mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link" aria-current="page" href="./../index.html">Home</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About Us</a>
+                                <a class="nav-link active" href="./about.html">About Us</a>
                             </li>
 
                             <li class="nav-item dropdown">
@@ -98,7 +156,7 @@
                                     Pages
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Blog posts</a></li>
+                                    <li><a class="dropdown-item" href="./blog_post.html">Blog posts</a></li>
                                     <li><a class="dropdown-item" href="#">404 page</a></li>
                                     <li>
                                         <a class="dropdown-item" href="#">landing page</a>
@@ -107,7 +165,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="./contact.html">Contact</a>
                             </li>
                         </ul>
                         <form class="headerSearch d-flex" role="search">
@@ -122,37 +180,36 @@
             </nav>
         </div>
     </header>
-    <!-- Carousel -->
-    <section class="carousel_3Wl container-fluid">
-        <!-- <div class="container"> -->
+    <!-- Carousel AboutUs -->
+    <section class="carousel_about container-fluid">
         <div class="carousel_title container text-capitalize text-light">
             <h3 class="carousel_text font-weight-bold mb-sm-3 mb-2">about us</h3>
             <span class="carousel_text d-flex flex-row mb-3">
-                <a href="#" class="p-0">home</a>
+                <a href="./../index.html" class="p-0">home</a>
                 <p class="m-0"><i class="fa-solid fa-angles-right p-1"></i>about page</p>
             </span>
         </div>
         <!-- </div> -->
     </section>
-    <!-- Mision -->
-    <section class="mision_3Wl py-5">
-        <div class="container">
+    <!-- Mision AboutUs-->
+    <section class="mision_about py-5">
+        <div class="container py-md-5 py-4">
             <div class="row">
-                <div class="col-lg-6 mision_text align-self pr-lg-5">
-                    <h3>Our Mission is to Provide a World‑class Education</h3>
-                    <p class="mt-3 text-dark-emphasis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, quia
-                        similique dolore
-                        error sed
-                        tempore.</p>
+                <div class="col-lg-6 pe-lg-5 ps-lg-4 mision_text about-right-faq align-self-auto">
+                    <h3 class="text_title mt-4">
+                        Our Mission is to Provide a World‑class Education </h3>
+                    <p class="mt-3">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+                        ultrices in ligula. Semper at tempufddfel. </p>
                 </div>
-                <div class="col-lg-6 mision_video text-right pr-lg-5 mt-lg-0 mt-5">
-                    <div class="position-relative text-center">
-                        <img src="./../img/AboutUs/about.jpg" alt="img_video">
+                <div class="col-lg-6 ps-lg-4 left-wthree-img-video text-righ pe-lg-5 mt-lg-0 mt-5">
+                    <div class="mision_video position-relative text-center">
+                        <img src="./../img/AboutUs/about.jpg" alt="" class="img-fluid">
                         <a href="#small-dialog" class="popup-with-zoom-anim play-view text-center position-absolute">
                             <span class="video-play-icon">
-                                <i class="fa-solid fa-play"></i>
+                                <span class="fa fa-play"></span>
                             </span>
                         </a>
+
                         <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
                         <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
                             <iframe src="https://player.vimeo.com/video/83651159?title=0&byline=0&portrait=0"
@@ -164,8 +221,9 @@
         </div>
     </section>
 
-    <!-- Number -->
-    <section class="number_3Wl pb-5">
+
+    <!-- Number AboutUs -->
+    <section class="number_about pb-5">
         <div class="container pb-md-5 pb-4 pt-4">
             <div class="row number_content justify-content-center text-center text-uppercase">
                 <!-- item  -->
@@ -192,41 +250,50 @@
         </div>
 
     </section>
-    <!-- 3Wl INTRO -->
-    <section class="intro_3Wl bg-light">
+    <!-- Intro AboutUs -->
+    <section class="intro_about bg-light">
         <div class="container pb-md-5 py-4">
             <div class="row intro_content justify-content-center text-center">
                 <!-- item  -->
                 <div class="intro_item col-lg-4 col-md-6">
-                    <i class="fa-regular fa-face-smile text-success bg-success-subtle"></i>
-                    <h4>
-                        <a href="#url" class="intro_title">group seminars</a>
-                    </h4>
-                    <p class="intro_text">Ut blandit eu leo non. Duis sed dolor amet ipsum primis in faucibus orci dolor
-                        sit et amet.</p>
+                    <div class="intro_box">
+                        <i class=" fa-regular fa-face-smile text-success bg-success-subtle"></i>
+                        <h4>
+                            <a href="#url" class="intro_title">group seminars</a>
+                        </h4>
+                        <p class="intro_text">Ut blandit eu leo non. Duis sed dolor amet ipsum primis in faucibus orci
+                            dolor
+                            sit et amet.</p>
+                    </div>
                 </div>
                 <!-- item  -->
                 <div class="intro_item col-lg-4 col-sm-6 mt-md-0 mt-4">
-                    <i class="fa-solid fa-graduation-cap text-warning bg-warning-subtle"></i>
-                    <h4>
-                        <a href="#url" class="intro_title">trending courses</a>
-                    </h4>
-                    <p class="intro_text">Ut blandit eu leo non. Duis sed dolor amet ipsum primis in faucibus orci dolor
-                        sit et amet.</p>
+                    <div class="intro_box">
+                        <i class="fa-solid fa-graduation-cap text-warning bg-warning-subtle"></i>
+                        <h4>
+                            <a href="#url" class="intro_title">trending courses</a>
+                        </h4>
+                        <p class="intro_text">Ut blandit eu leo non. Duis sed dolor amet ipsum primis in faucibus orci
+                            dolor
+                            sit et amet.</p>
+                    </div>
                 </div>
                 <!-- item  -->
                 <div class="intro_item col-lg-4 col-sm-6 mt-lg-0 mt-4">
-                    <i class="fa-solid fa-users text-danger bg-danger-subtle"></i>
-                    <h4>
-                        <a href="#url" class="intro_title">expert teachers</a>
-                    </h4>
-                    <p class="intro_text">Ut blandit eu leo non. Duis sed dolor amet ipsum primis in faucibus orci dolor
-                        sit et amet.</p>
+                    <div class="intro_box">
+                        <i class="fa-solid fa-users text-danger bg-danger-subtle"></i>
+                        <h4>
+                            <a href="#url" class="intro_title">expert teachers</a>
+                        </h4>
+                        <p class="intro_text">Ut blandit eu leo non. Duis sed dolor amet ipsum primis in faucibus orci
+                            dolor
+                            sit et amet.</p>
+                    </div>
                 </div>
             </div>
     </section>
-    <!-- 3Wl team -->
-    <section class="team_3Wl pb-5 py-sm-5 pb-sm-0">
+    <!-- Team AboutUs -->
+    <section class="team_about pb-5 py-sm-5 pb-sm-0">
         <div class="container py-md-5 py-4">
             <div class="team_title text-center mx-auto mb-5 pb-sm-4">
                 <h3 class="text-capitalize">who makes the magic happen?<br><span>know about them</span></h3>
@@ -445,8 +512,8 @@
 
     </section>
 
-    <!-- 3Wl education -->
-    <section class="education_3Wl pb-5 pt-2">
+    <!-- Education AboutUs -->
+    <section class="education_about pb-5 pt-2">
         <div class="container py-md-5 py-4 mb-5">
             <div class="row align-items-center justify-content-center">
                 <div class="education_text col-lg-6 pt-lg-5">
@@ -454,17 +521,17 @@
                     <p class="mt-3">Consectetur adipiscing elit. Aliquam sit amet efficitur tortor.Uspendisse efficitur
                         orci urna..
                     </p>
-                    <ul class="mt-sm-4 mt-3">
+                    <ul class="mt-sm-4 mt-3 ps-0">
                         <li>
-                            <i class="fa-regular fa-square-check"></i>
+                            <i class="fa-regular fa-square-check ps-0"></i>
                             <span>Ut enim ad minim veniam</span>
                         </li>
                         <li>
-                            <i class="fa-regular fa-square-check"></i>
+                            <i class="fa-regular fa-square-check ps-0"></i>
                             <span>Quis nostrud exercitation ullamco laboris</span>
                         </li>
                         <li>
-                            <i class="fa-regular fa-square-check"></i>
+                            <i class="fa-regular fa-square-check ps-0"></i>
                             <span>Nisi ut aliquip ex ea commodo</span>
                         </li>
                     </ul>
@@ -596,7 +663,10 @@
             </div>
         </section>
     </footer>
-
+    <!-- back to top js cody house  -->
+    <a href="#" class="cd-top text-replace js-cd-top back_to_top">
+        <i class="fa-solid fa-turn-up"></i>
+    </a>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -612,12 +682,57 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js"
         integrity="sha512-KgffulL3mxrOsDicgQWA11O6q6oKeWcV00VxgfJw4TcM8XRQT8Df9EsrYxDf7tpVpfl3qcYD96BpyPvA4d1FDQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- magnific popup -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+        integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(document).ready(function () {
+            $('.popup-with-zoom-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-zoom-in'
+            });
+
+            $('.popup-with-move-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-slide-bottom'
+            });
+        });
+
+    </script>
     <!-- Count up js  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
         integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./../js/countUp/jquery.countup.min.js"></script>
     <script>$('.counter').countUp();</script>
+    <!-- back to top cody house js  -->
+    <script src="./../js/back-to-top-master/assets/js/util.js"></script>
+    <script src="./../js/back-to-top-master/assets/js/main.js"></script>
+    <!-- demo Bar  -->
+    <script src="./../js/demoBar/demoBar.js"></script>
 </body>
 
 </html>

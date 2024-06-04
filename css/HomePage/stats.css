@@ -1,0 +1,20 @@
+.home--stats .item {
+  position: relative;
+}
+.home--stats .item::before {
+  content: "";
+  height: 100%;
+  width: 1px;
+  background-color: #c2c1c1;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.home--stats span {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.home--stats p {
+  text-transform: uppercase;
+}
