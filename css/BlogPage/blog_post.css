@@ -1,0 +1,243 @@
+.blogPosts_img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.blogPosts_text {
+    border: 1px solid #eee;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 0 0 8px 8px;
+    width: 100%;
+}
+
+.blogPosts_text_w3 span {
+    color: #ff6e65;
+    font-weight: 600;
+}
+
+.blogPosts_text_w3 i {
+    color: #ff6e65;
+}
+
+.blogPosts_text h3 a {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #060606;
+    transition: all 0.5s;
+}
+
+.blogPosts_text h3 a:hover {
+    color: #ff6e65;
+}
+
+.page-numbers span {
+    background-color: #ff6e65;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 600;
+    padding: 10px 18px;
+    font-size: 14px;
+}
+
+.page-numbers a {
+    font-size: 16px;
+    display: inline-block;
+    color: #060606;
+    text-align: center;
+    font-weight: 600;
+    background: transparent;
+    padding: 10px 18px;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.page-numbers a:hover {
+    background-color: #ff6e65;
+    color: #fff;
+}
+
+.search_box {
+    margin-bottom: 40px;
+    border: 1px solid #eee;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal;
+}
+
+.search_blog input[type="search"] {
+    font-size: 16px;
+    border-radius: 8px;
+    outline: none;
+    height: 50px;
+    width: 290px;
+    padding: 10px;
+    border: 1px solid #eee;
+    background: #fff;
+    color: #060606;
+}
+
+.search-submit {
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    letter-spacing: 0;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    outline: none;
+    border: none;
+    background-size: 200%;
+    background-color: #0d369f;
+    transition: all 0.3s;
+}
+
+.search-submit:hover {
+    background-color: #ff6e65;
+    border-color: #ff6e65;
+}
+
+.right-sidebar {
+    position: sticky;
+    top: 100px;
+}
+
+.blog_text {
+    margin-bottom: 40px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+.blog_text h4 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.blog_text ul li a {
+    text-transform: capitalize;
+    color: #707070;
+    width: 100%;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 15px;
+    transition: all 0.3s;
+}
+
+.blog_text ul li a:hover {
+    text-decoration: underline;
+    color: #ff6e65;
+}
+
+.blog_text_2 {
+    margin-bottom: 40px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+.blog_text_2 h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+
+.blog_text_2 ul li {
+    font-size: 20px;
+    color: #707070;
+    margin: 20px 0;
+}
+
+.blog_text_2 ul li span a {
+    text-transform: capitalize;
+    color: #ff6e65;
+    font-size: 20px;
+    width: 100%;
+    font-weight: 600;
+}
+
+.blog_text_2 ul li span a:hover,
+.blog_text_2 ul li a:hover {
+    text-decoration: underline;
+}
+
+.blog_text_2 ul li a {
+    text-transform: capitalize;
+    color: #ff6e65;
+    font-size: 20px;
+    width: 100%;
+    font-weight: 600;
+}
+
+.blog_archives {
+    margin-bottom: 40px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+.blog_archives h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+
+.blog_archives a {
+    font-size: 20px;
+    color: #707070;
+    margin: 20px 0;
+}
+
+.blog_archives a:hover {
+    text-decoration: underline;
+    color: #ff6e65;
+}
+
+.blog_categories,
+.blog_meta {
+    margin-bottom: 40px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+.blog_categories h4,
+.blog_meta h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+
+.blog_categories ul li,
+.blog_meta ul li {
+    margin-bottom: 20px;
+}
+
+.blog_categories a,
+.blog_meta a {
+    font-size: 20px;
+    color: #707070;
+}
+
+.blog_categories ul li a:hover,
+.blog_meta ul li a:hover {
+    text-decoration: underline;
+    color: #ff6e65;
+}
