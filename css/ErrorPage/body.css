@@ -1,8 +1,85 @@
-.content {
+.errorPage {
   background-image: url("../../img/error.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  width: 100vw;
+  width: 98vw;
   height: 100vh;
+  position: relative;
+}
+.errorPage::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    75deg,
+    rgb(16 16 16 / 62%) 20%,
+    rgb(230 2 100 / 0%)
+  );
+
+  left: 0;
+  top: 0;
+}
+
+.errorPage .error-404 {
+  color: #fff;
+  max-width: 500px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.errorPage .error-404 h2 {
+  font-size: 160px;
+  font-weight: 500;
+}
+
+.errorPage .error-404 p {
+  font-size: 1.6rem;
+}
+
+.error-404 .searchInput input {
+  padding: 10px 58px 10px 20px;
+  border-radius: 36px;
+  line-height: 36px;
+  border: 2px solid rgb(255 255 255 / 29%);
+}
+
+.error-404 .searchInput input:focus {
+  box-shadow: none;
+}
+
+.error-404 .searchInput .btnSearch {
+  right: 25px;
+  top: 10px;
+  padding-right: 0 20px 0 0;
+  color: #002efb;
+  transition: all 0.5s;
+  border: 1px solid transparent;
+}
+
+.error-404 .searchInput .btnSearch:hover {
+  color: #ff6e65;
+  background: transparent;
+}
+
+.errorPage .error-404 a {
+  color: #fff;
+  margin-top: 50px;
+  font-weight: 700;
+  transition: all 0.5s;
+}
+
+.errorPage .error-404 a i {
+  margin-right: 10px;
+  line-height: 23px;
+}
+
+.errorPage .error-404 a p {
+  font-size: 1rem;
+}
+
+.errorPage .error-404 a:hover {
+  color: #ff6e65;
 }

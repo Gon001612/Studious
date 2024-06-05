@@ -53,6 +53,7 @@
   transition: all 0.5s;
   margin-left: 20px;
 }
+
 .navbar-brand:hover {
   color: #ff6e65;
 }
@@ -77,23 +78,25 @@
 .headerSearch .form-control {
   padding: 10px 35px 10px 20px;
   border-radius: 30px;
-  color: ;
+  /* color: ; */
   border: 2px solid #eee;
   background: transparent;
   width: 100%;
 }
+
 .form-control:focus {
-  outline: none;
+  box-shadow: none;
 }
 
 .headerSearch .btnSearch {
-  right: 30px;
-  top: 17px;
+  right: 15px;
+  top: 4px;
   padding-right: 0 20px 0 0;
   color: #0d369f;
   transition: all 0.5s;
   border: 1px solid transparent;
 }
+
 .headerSearch .btnSearch:hover {
   color: #ff6e65;
   background: transparent;
