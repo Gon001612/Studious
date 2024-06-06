@@ -149,3 +149,19 @@
 .copyright a:hover {
   text-decoration: underline;
 }
+
+.back_to_top {
+  position: fixed;
+  bottom: 90px;
+  right: 15px;
+  background-color: #0d369f;
+  color: white;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 12px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.1s;
+}
