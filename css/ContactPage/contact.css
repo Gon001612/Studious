@@ -28,6 +28,7 @@
 
 .cont--form-right textarea {
   height: 100px;
+  border-radius: 8px;
 }
 
 .cont--form-right .btn {
@@ -44,4 +45,10 @@
 }
 .message--form .cont-form .cont--form-left img {
   border-radius: 10px;
+}
+
+@media (max-width: 1024px) {
+  .cont--form-right .btn {
+    margin-top: -12px;
+  }
 }

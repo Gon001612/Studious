@@ -53,8 +53,9 @@
     <link rel="stylesheet" href="./../css/global.css" />
     <link rel="stylesheet" href="./../css/header.css" />
     <link rel="stylesheet" href="./../css/footer.css" />
-    <link rel="stylesheet" href="./../css/AboutPage/about.css" />
-    <link rel="stylesheet" href="./../css/BlogPage/blog_post.css" />
+    <link rel="stylesheet" href="../css/aboutPage/about.css" />
+    <link rel="stylesheet" href="../css/blogPage/blog_post.css" />
+    <link rel="stylesheet" href="../css/blogPage/banner.css" />
   </head>
 
   <body>
@@ -158,8 +159,8 @@
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
-            <a class="navbar-brand" href="./../index.html"
-              ><img src="./../img/logo.png" alt="logo" />
+            <a class="navbar-brand" href="#"
+              ><img src="../img/logo.png" alt="logo" />
               Studious
             </a>
             <button
@@ -179,13 +180,16 @@
             >
               <ul class="navbar-nav d-flex mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="./../index.html"
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="../index.html"
                     >Home</a
                   >
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link active" href="./about.html">About Us</a>
+                  <a class="nav-link" href="./about.html">About Us</a>
                 </li>
 
                 <li class="nav-item dropdown">
@@ -205,7 +209,7 @@
                       >
                     </li>
                     <li>
-                      <a class="dropdown-item" href="./ErrorPage.html"
+                      <a class="dropdown-item" href="./errorPage.html"
                         >404 page</a
                       >
                     </li>
@@ -221,7 +225,7 @@
                   <a class="nav-link" href="./contact.html">Contact</a>
                 </li>
               </ul>
-              <form class="headerSearch d-flex" role="search">
+              <form class="headerSearch d-flex position-relative" role="search">
                 <input
                   class="form-control me-2 position-relative"
                   type="search"
@@ -240,19 +244,19 @@
         </nav>
       </div>
     </header>
-    <!-- Carousel AboutUs -->
-    <section class="carousel_about container-fluid">
-      <div class="carousel_title container text-capitalize text-light">
-        <h3 class="carousel_text font-weight-bold mb-sm-3 mb-2">about us</h3>
-        <span class="carousel_text d-flex flex-row mb-3">
-          <a href="./../index.html" class="p-0">home</a>
-          <p class="m-0">
-            <i class="fa-solid fa-angles-right p-1"></i>about page
-          </p>
-        </span>
+    <!-- Banner AboutUs -->
+    <section class="banner">
+      <div class="container py-5">
+        <div class="banner--body py-5">
+          <h4>About Us</h4>
+          <div class="back--home d-flex">
+            <a href="../index.html">Home</a>
+            <p>About Page</p>
+          </div>
+        </div>
       </div>
-      <!-- </div> -->
     </section>
+
     <!-- Mision AboutUs-->
     <section class="mision_about py-5">
       <div class="container py-md-5 py-4">
@@ -261,7 +265,7 @@
             class="col-lg-6 pe-lg-5 ps-lg-4 mision_text about-right-faq align-self-auto"
           >
             <h3 class="text_title mt-4">
-              Our Mission is to Provide a World‑class Education
+              Our Mission is to Provide a World - class Education
             </h3>
             <p class="mt-3">
               Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
@@ -272,7 +276,7 @@
             class="col-lg-6 ps-lg-4 left-wthree-img-video text-righ pe-lg-5 mt-lg-0 mt-5"
           >
             <div class="mision_video position-relative text-center">
-              <img src="./../img/AboutUs/about.jpg" alt="" class="img-fluid" />
+              <img src="../img/AboutUs/about.jpg" alt="" class="img-fluid" />
               <a
                 href="#small-dialog"
                 class="popup-with-zoom-anim play-view text-center position-absolute"
@@ -671,13 +675,12 @@
       </div>
     </section>
     <!-- Footer -->
-
     <footer class="position-relative mt-5 pt-5">
-      <div class="footer--sub">
+      <div class="footer--sub mt-5 mt-md-0 px-3 px-md-0">
         <div class="container">
           <div class="footer--top">
             <div class="row align-items-center FooterSubscribe">
-              <div class="col-md-6 title left">
+              <div class="col-md-6 text-start left">
                 <h2>Subscribe Us to join our Community</h2>
                 <p>Newsletter</p>
               </div>
@@ -737,6 +740,7 @@
                 <h6>Contact</h6>
                 <ul>
                   <li>
+                    <a href=""></a>
                     <i class="fa fa-envelope"></i>
                     <a href="mailto:info@example.com"> info@example.com</a>
                   </li>
@@ -796,6 +800,8 @@
         </div>
       </section>
     </footer>
+    <!-- Footer End -->
+
     <!-- back to top js cody house  -->
     <a href="#" class="cd-top text-replace js-cd-top back_to_top">
       <i class="fa-solid fa-turn-up"></i>

@@ -1,0 +1,33 @@
+.banner {
+  background-image: url("../../img/AboutUs/bg4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.banner--body h4 {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.banner--body .back--home {
+  opacity: 0.8;
+  font-size: 0.6rem;
+}
+
+.banner--body a {
+  color: #fff;
+}
+
+.banner--body .back--home p {
+  color: #fff;
+}
+.banner--body .back--home p::before {
+  content: "\f101";
+  font-family: "FontAwesome";
+  display: inline-block;
+  font-size: 0.6rem;
+  color: #fff;
+  margin: 0 5px;
+}

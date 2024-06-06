@@ -270,6 +270,9 @@
 
 .education_img img {
   border-radius: 10px;
+  display: block;
+  width: 98%;
+  height: 100%;
 }
 
 .back_to_top {
